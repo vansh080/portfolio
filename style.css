@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(230, 230, 230);
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    padding: 26px 151px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(153, 81, 19);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(226 134 201);
+
+}
+
+.detail {
+    margin-left: 13%;
+    margin-top: 12%;
+
+}
+
+h1 {
+    display: flow;
+    font-size: 2em;
+    margin-block-start: -1.33em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+}
+
+.detail h1 span {
+    color: blueviolet
+}
+
+.detail p {
+    color: rgb(142, 191, 8);
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+
+
+nav img {
+    height: 90px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 50%;
+    width: 127px;
+    padding: 0px;
+    margin: -26px -50px -27px -150px;
+}
+
+.images {
+    width: 1%;
+    height: 71%;
+    position: absolute;
+    bottom: 0;
+    right: 46%;
+}
+
+.images img {
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-54%);
+    transition: bottom 1s, left 1s;
+    margin: 150px;
+}
+
+.images:hover .back {
+    bottom: 10%;
+
+}
+
+.images:hover .my {
+    left: 100px;
+
+}
+
+
+#element {
+    color: #1a0bee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.contactform {
+    padding: 30px;
+
+}
+
+.contactform h1 {
+
+    margin: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.contactform form div {
+    flex-direction: column;
+    display: flex;
+    padding: 10px 0;
+}
+
+.contactform form div input {
+    width: 85vh;
+    border-radius: 20px;
+    margin: 5px 0 0;
+    padding: 3px;
+}
+
+#emailhelp {
+    font-size: 57%;
+    margin: 0px 20px;
+    color: blueviolet;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0px;
+
+}
+
+.intro h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 65pz 0 0 0;
+
+}
+
+
+.introcontanior {
+
+    padding: 50px;
+}
+
+.intro {
+    width: 25%;
+    padding: 23px;
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+margin: 12px;
+}
+.skills-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px 8px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #007BFF;
+    position: absolute;
+}
+
+
+.social-icons {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 67%;
+    margin: 0% 0% 2% 16%;
+}
+
+.social-icons a {
+    display: inline-block; /* Display icons as inline blocks */
+    text-decoration: none; /* Remove underline from links */
+    width: 50px; /* Set width for each icon */
+    height: 50px; /* Set height for each icon */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.social-icons img {
+    width: 100%; 
+    height: 100%; 
+}
+footer{
+display: block;
+    background-color:rgb(153, 81, 19);
+
+}
